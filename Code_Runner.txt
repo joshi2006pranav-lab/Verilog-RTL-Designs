@@ -1,0 +1,20 @@
+1.
+TestBench must contain:
+initial begin
+    $dumpfile("dump.vcd");
+    $dumpvars(0, tb_design);
+end
+
+2. 
+design.v     -  Main Design File
+tb_design.v  -  TestBench File
+
+3.
+Go in the folder using:  cd Folder_name
+
+Run this in terminal:
+
+iverilog -o output.vvp design.v tb_design.v
+vvp output.vvp
+gtkwave dump.vcd
+

@@ -1,0 +1,8 @@
+Go in the folder using:  cd 6_Priority_Encoder_4by2
+
+Then Enter this command:
+
+iverilog -o out.vvp Priority_Encoder_4by2.v tb_Priority_Encoder_4by2.v
+vvp out.vvp
+gtkwave dump.vcd
+Remove-Item out.vvp, dump.vcd

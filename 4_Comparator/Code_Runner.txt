@@ -1,0 +1,7 @@
+Go in the folder using:  cd 4_Comparator
+
+Then Enter this command:
+
+iverilog -o out.vvp 4bit_Comparator.v tb_4bit_Comparator.v
+vvp out.vvp
+gtkwave dump.vcd

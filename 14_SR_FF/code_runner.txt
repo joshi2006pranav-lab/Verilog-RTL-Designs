@@ -1,0 +1,8 @@
+Go in the folder using:  cd 14_SR_FF
+
+Then Enter this command:
+
+iverilog -o out.vvp SR_FF.v tb_SR_FF.v
+vvp out.vvp
+gtkwave dump.vcd
+Remove-Item out.vvp, dump.vcd

@@ -1,0 +1,8 @@
+Go in the folder using:  cd 10_Adder_Subtracter
+
+Then Enter this command:
+
+iverilog -o out.vvp Adder_Subtracter.v tb_Adder_Subtracter.v
+vvp out.vvp
+gtkwave dump.vcd
+Remove-Item out.vvp, dump.vcd

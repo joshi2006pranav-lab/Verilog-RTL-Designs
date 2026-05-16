@@ -1,0 +1,7 @@
+Go in the folder using:  cd 3_Parity_Generator
+
+Then Enter this command:
+
+iverilog -o out.vvp Parity_Genrator.v tb_Parity_Genrator.v
+vvp out.vvp
+gtkwave dump.vcd

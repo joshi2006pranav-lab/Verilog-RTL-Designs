@@ -1,0 +1,8 @@
+Go in the folder using:  cd 7.2_Full_Adder
+
+Then Enter this command:
+
+iverilog -o out.vvp Full_Adder.v tb_Full_Adder.v
+vvp out.vvp
+gtkwave dump.vcd
+Remove-Item out.vvp, dump.vcd
