@@ -1,7 +1,0 @@
-Go in the folder using:  cd 5_Mux
-
-Then Enter this command:
-
-iverilog -o out.vvp Mux_4to1.v tb_Mux_4to1.v
-vvp out.vvp
-gtkwave dump.vcd

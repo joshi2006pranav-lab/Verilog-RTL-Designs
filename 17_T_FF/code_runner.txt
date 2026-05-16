@@ -1,8 +1,0 @@
-Go in the folder using:  cd 17_T_FF
-
-Then Enter this command:
-
-iverilog -o out.vvp T_FF.v tb_T_FF.v
-vvp out.vvp
-gtkwave dump.vcd
-Remove-Item out.vvp, dump.vcd

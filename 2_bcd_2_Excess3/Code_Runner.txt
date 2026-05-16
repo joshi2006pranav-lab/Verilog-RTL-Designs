@@ -1,7 +1,0 @@
-Go in the folder using:  cd 2_bcd_2_Excess3
-
-Then Enter this command:
-
-iverilog -o out.vvp BCD_2_Excess3.v tb_BCD_2_Excess3.v
-vvp out.vvp
-gtkwave dump.vcd

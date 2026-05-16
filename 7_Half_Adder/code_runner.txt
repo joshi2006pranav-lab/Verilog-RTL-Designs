@@ -1,8 +1,0 @@
-Go in the folder using:  cd 7.1_Half_Adder
-
-Then Enter this command:
-
-iverilog -o out.vvp Half_Adder.v tb_Half_Adder.v
-vvp out.vvp
-gtkwave dump.vcd
-Remove-Item out.vvp, dump.vcd

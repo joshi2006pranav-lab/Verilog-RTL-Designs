@@ -1,8 +1,0 @@
-Go in the folder using:  cd 7_3to8_Decoder
-
-Then Enter this command:
-
-iverilog -o out.vvp 3to8_Decoder.v tb_3to8_Decoder.v
-vvp out.vvp
-gtkwave dump.vcd
-Remove-Item out.vvp, dump.vcd
