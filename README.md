@@ -87,6 +87,26 @@ Through these projects, I gained hands-on experience in:
 
 ---
 
+# Project Highlights
+
+## 4-bit Comparator Logic Diagram
+
+![4-bit Comparator](Logic_diagram_4bit_12bit_Comparator.jpeg)
+
+---
+
+## Universal Shift Register
+
+![Universal Shift Register](Logic_Diagram_Universal_Shift_Register.jpeg)
+
+---
+
+## Synchronous MOD-N Counter Waveform
+
+![MOD-N Counter Waveform](Result_Waveform_Syn_Mod-N_Counter.png)
+
+---
+
 # Author
 
 Pranav Joshi
